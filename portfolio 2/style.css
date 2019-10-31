@@ -1,0 +1,174 @@
+
+body {
+    background-image: url(bg.png);
+    background-attachment: scroll;
+}
+
+
+ul#navigation li {
+    padding: 0px;
+    margin: 5px;
+    width: 20%;
+}
+nav {
+    position:fixed;
+    top:0;
+    right:0;
+}
+    nav a {
+        display: inline-block;
+        text-decoration: none; 
+        font-weight: bold;
+        color: white; 
+        background-color: #C9B2CE;
+        font-family:arial, "lucida console", sans-serif;
+        top: 0px;
+        margin-right:auto;
+        height: 25px;
+        padding: 5px;
+        border-radius: 0px 0px 15px 15px;
+    
+            transition: all .25s ease-in;	  
+      }
+      nav a:focus,
+      nav a:hover,
+      nav a:active  
+      nav li[aria-current] a:focus,
+      nav li[aria-current] a:hover {    
+        color: white; 
+        background-color:#AA95AE;
+        
+      }
+
+      h3{
+        color:#AA95AE;   
+        font-size:14pt;  
+        font-family:arial, "lucida console", sans-serif; 
+      }
+     p{
+      color:#AA95AE;   
+      font-size:12pt;  
+      font-family:arial, "lucida console", sans-serif; 
+     }
+     h4{
+        color:#AA95AE;   
+        font-size:12pt;  
+        font-family:arial, "lucida console", sans-serif; 
+      }
+      h2{
+        color:#59101E;   
+        font-size:18pt;  
+        font-family:arial, "lucida console", sans-serif; 
+      }
+      h1{
+        color:#59101E;   
+        font-size:22pt;  
+        font-family:arial, "lucida console", sans-serif; 
+      }
+      div {
+        width: 800px;
+        margin: auto;
+      }
+    
+.box1 {
+    background: #59101E;
+    color: #AA95AE;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
+    text-align: left;
+}
+.box2 {
+    background: #59101E;
+    color: #AA95AE;
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
+    text-align: left;
+}
+.box3 {
+    background: #59101E;
+    color: #AA95AE;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 0px;
+    text-align: left;
+}
+#LeftColor {
+    color: #59101E;
+    text-align: left
+}
+.red {
+    color:#59101E ;
+}
+
+.kontakt {
+ text-align: left;
+}
+
+.nav-unten {
+    position:fixed
+    left:0;
+    display: inline-block;
+    text-decoration: none; 
+    font-weight: bold;
+    color: white; 
+    background-color: #C9B2CE;
+    font-family:arial, "lucida console", sans-serif;
+    bottom: 0px;
+    right: 0px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 0px 0px 0px 0px;
+    transition: all .25s ease-in;	
+    color: white; 
+    background-color:#AA95AE;
+
+}
+img {
+  display: block;
+
+  width: 97%;
+}
+
+input {
+  width: 270px;
+  height: 30px;
+  font-size: 13px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  background-color: #59101E ;
+  color: #AA95AE;
+  border: 0px solid white;
+}
+textarea {
+  width: 400px;
+  height: 50px;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border: 0px solid white;
+  background-color: #59101E;
+}
+button {
+  width: 80px;
+  border-radius: 0px;
+  color: #AA95AE;
+  background-color: #59101E;
+  height: 30px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.img-profile {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+.img-dance {
+  width: 250px;
+  height:150px;
+  margin:auto
+}
