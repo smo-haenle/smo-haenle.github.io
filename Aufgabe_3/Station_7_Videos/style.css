@@ -1,0 +1,89 @@
+body {
+    background-image: url(bg7.png);
+    text-align: center;
+  }
+  body {
+    display: block;
+    margin: 8px;
+  }
+  
+      #wrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+    h1 {
+      position: absolute;
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2em;
+      color: white;
+      top: 15%;
+      left: 13%;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  p {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1em;
+    line-height: 2em;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .plant7 {
+    position: absolute;
+    top: -15%;
+    left: -12%;
+
+}
+.gifts {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+}
+.fire {
+    position: absolute;
+    right: 4%;
+    bottom: 7%;
+}
+
+.stern1 {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+.stern2{
+    position: absolute;
+    top: 15%;
+    right: 35%;
+}
+.stern3 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+video {
+    position: absolute;
+    right: 4%;
+    bottom: 7%;
+}

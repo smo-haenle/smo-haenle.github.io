@@ -1,0 +1,64 @@
+body {
+  background-image: url(bg.png);
+  text-align: center;
+}
+body {
+  display: block;
+  margin: 8px;
+}
+
+    #wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    position: absolute;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    top: 15%;
+    left: 13%;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.pinguuu {
+  position: absolute;
+  bottom: -5%;
+  right: -5%;
+}
+
+.busch {
+  position: absolute;
+  top: -15%;
+  left: -10%;
+}
+
+p {
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 1em;
+  line-height: 2em;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

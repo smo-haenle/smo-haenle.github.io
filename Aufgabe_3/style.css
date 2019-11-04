@@ -1,0 +1,27 @@
+body {
+    background-image: url(bg4auswahl.png);
+    text-align: center;
+  }
+  body {
+    display: block;
+    margin: 8px;
+  }
+  
+
+@font-face {
+    font-family: 'jellyka_delicious_cakeregular';
+    src: url('jellyka_delicious_cake-webfont.woff2') format('woff2'),
+         url('jellyka_delicious_cake-webfont.woff') format('woff');
+       
+    font-weight: normal;
+    font-style: normal;
+}
+    a {
+        display: block;
+        padding: 20px 40px;
+        text-decoration: none;
+        color: white;
+        background-color: pink;
+        border: 5px outset #001a00;
+        font-family: 'jellyka_delicious_cakeregular';
+    }

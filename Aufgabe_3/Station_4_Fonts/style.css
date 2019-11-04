@@ -1,0 +1,60 @@
+body {
+    background-image: url(bg4.png);
+    text-align: center;
+  }
+  body {
+    display: block;
+    margin: 8px;
+  }
+  
+      #wrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+    h1 {
+      position: absolute;
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2em;
+      color: white;
+      top: 15%;
+      left: 13%;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+p {
+    font-family: "Jellyka Delicious Cake.ttf";
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'jellyka_delicious_cakeregular';
+    src: url('jellyka_delicious_cake-webfont.woff2') format('woff2'),
+         url('jellyka_delicious_cake-webfont.woff') format('woff');
+       
+    font-weight: normal;
+    font-style: normal;
+
+}
+p{
+    font-family: 'jellyka_delicious_cakeregular';
+}
