@@ -113,7 +113,7 @@ function NordAmerika(){
     document.querySelector(".emissionabsolute p").innerHTML = "Emission absolute of North America in 2018";
     document.querySelector(".relativetoworlds h2").innerHTML = percentNA .toFixed(1);
     document.querySelector(".growthrate h2").innerHTML = percentNa3 .toFixed(1);
-    document.querySelector(".growthrateabsolute h2").innerHTML = percentNa3 .toFixed(1);
+    document.querySelector(".growthrateabsolute h2").innerHTML = percentNa2 .toFixed(1);
     document.querySelector(".fill").setAttribute("style", "height:" + percentna18 + "%");
    
 //percent na
