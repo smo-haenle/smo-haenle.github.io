@@ -194,6 +194,6 @@ section {
 }
 footer {
     position: absolute;
-    bottom: 10%;
+    top: 600px;
     width: 99%;
 }
